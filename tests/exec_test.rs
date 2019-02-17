@@ -144,6 +144,7 @@ where
 
     run_runtime(rt, future);
 }
+
 #[test]
 fn integration_test_start_exec() {
     connect_to_docker_and_run!(start_exec_test);
